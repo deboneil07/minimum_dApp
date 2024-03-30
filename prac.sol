@@ -3,7 +3,7 @@ pragma solidity 0.8.18;
 
 contract Test {
     uint256 public store = 12;
-    string _name = "hello neil";
+    string _name;
 
     function status(uint256 data) public {
         store = data;
@@ -17,5 +17,11 @@ contract Test {
         _name = name;
         return _name;
     }
+
+    constructor() { // this is used for setting default values 
+        _name = "hello ETH";
+    }
+
+    
 
 }
