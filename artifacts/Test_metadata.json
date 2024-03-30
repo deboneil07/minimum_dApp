@@ -6,6 +6,38 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "set",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -60,11 +92,11 @@
 	},
 	"sources": {
 		"prac.sol": {
-			"keccak256": "0xa805d200e5e67623ef6641f24dc769038fd688f2398ef8ee69667731b08d0f22",
+			"keccak256": "0xd68db7a986245f6ae87f7834678024e542e587150cb48be43490e900a9fe7775",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2c982db2e34baf3b06f1b1bed2ec2b469e66cf6a1264713d6201fa58b54297a8",
-				"dweb:/ipfs/QmZN16H9ziFrxiDA9FS4SNvosNrnwbzj8MYhjHaX9Rt6aJ"
+				"bzz-raw://3d8777179b3250ab864064e5f7deb873cd748841ff1dcaefa2a14ed2766a2546",
+				"dweb:/ipfs/QmeRe8Kcu2y6LyahZYmWyKG2pq6J4pz2mQr3f3g8NrMBe6"
 			]
 		}
 	},
